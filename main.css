@@ -3,4 +3,98 @@ nav {
     margin: 0 auto;
     padding: 10px 0;
     margin-right: 0%;
+    text-transform: var(10px);
+    text-align: initial;
+    background-color: #649549;
+    float: inline-start;
  }
+
+ nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.733);
+    
+    }
+
+    nav>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);
+        }
+
+        #container {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        button {
+            background-color:  #6CB840;
+        }
+
+        h2 {
+            text-decoration-color: #EAAB1B;
+        }
+
+        h3 {
+            background-color: #C9ECB5;
+        }
+
+        #first {
+            height: 200px;
+            width: 1000px;
+        }
+
+        .image {
+            float: right;
+            object-position: ;
+            position: relative;
+            object-fit: cover;
+            height: 150px;
+            width: fit-content;
+        }
+
+        #header {
+            height: 5px;
+            width: 15px;
+            object-position: center;
+            object-fit: contain;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .one {
+            width: 33.33%;
+            float: left;
+            padding: 3px;
+            background-color: aqua;
+        }
+
+        .two {
+            width: 33.33%;
+            float: left;
+            padding: 3px;
+            background-color: aqua;
+        }
+
+        .three {
+            text-align: center;
+            background-color: #FFD77C;
+        }
+
+        .f-right {
+            object-position: center;
+            background-color: gray;
+        }
+
+        .fourth {
+            background-color: #C9ECB5;
+        }
